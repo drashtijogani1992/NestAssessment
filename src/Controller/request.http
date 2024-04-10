@@ -1,0 +1,31 @@
+
+##Create new form with dynemic detail
+POST http://localhost:3000/fdform/form
+Content-Type: application/json
+
+{
+    "id" : "ecb06744-bb6c-4533-95b3-436ddcd30892",
+    "title":"User2",    
+    "email" : "string",
+    "name":"string",
+    "phonenumber":"number",
+    "isgraduate":"boolean"
+
+}
+
+### Insert form detail
+POST http://localhost:3000/fdform/filldata?form_title=User2
+Content-Type: application/json
+
+{
+    "id" : "ecb06744-bb6c-4533-95b3-436ddcd30878",
+    "email" : "asdf@asdf.com",
+    "name":"Drashti",
+    "phonenumber":9687451308,
+    "isgraduate":true
+
+}
+
+### Find all title with a given title
+
+GET http://localhost:3000/fdform/filldata?form_title=author
