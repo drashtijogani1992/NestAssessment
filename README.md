@@ -12,7 +12,7 @@ Make sure you have the following software installed on your machine:
 ## To setup Project just follw step.
 
 - Take a git clone of project from remote repositiory by using below command (Sample repo)
-   [(https://github.com/drashtijogani1992/NestDemoProject.git)]()
+   [(https://github.com/drashtijogani1992/NestAssessment.git)]()
 
 ## How to run the project
 
