@@ -21,7 +21,7 @@ npm run start:dev
 
 2. Open request.http
 
-### POST http://localhost:3000/User/form
+### POST fdform/form
 It will create a new form with a unique id and title name.
 If unique data is already present, then it is shown as already existing data.
 It will create another form field table with the field name and field type.
@@ -32,14 +32,14 @@ It will create another form field table with the field name and field type.
 
 
 
-### POST http://localhost:3000/User/filldata?form_title=author
+### POST fdform/filldata?form_title=User2
 It will validate all input property types and insert form data.
 
 ![Reference Image](Screenshot/SSR2.PNG)
 
 
 
-### GET http://localhost:3000/User/filldata?form_title=author
+### GET fdform/filldata?form_title=author
 
 It will provide all data whose name is with the author.
 
